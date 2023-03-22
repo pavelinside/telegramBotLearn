@@ -56,7 +56,7 @@ const start = async () => {
             }
             return bot.sendMessage(chatId, 'Я тебя не понимаю, попробуй еще раз!)');
         } catch (e) {
-            return bot.sendMessage(chatId, 'Произошла какая то ошибочка!)');
+            return bot.sendMessage(chatId, 'Произошла какая то ошибочка!)')
         }
     });
 
