@@ -10,8 +10,8 @@ const token = '5961801294:AAEN0zObAcspJHc__ARaqXNLCR-zW3ABmmk';
 const bot = new TelegramBot(token, {polling: true});
 const chats = {};
 
-//const webAppUrl = 'https://ornate-selkie-c27577.netlify.app';
-const webAppUrl = 'https://google.com';
+const webAppUrl = 'https://ornate-selkie-c27577.netlify.app';
+//const webAppUrl = 'https://google.com';
 
 const startGame = async (chatId) => {
     await bot.sendMessage(chatId, `Сейчас я загадаю цифру от 0 до 9, а ты должен ее угадать!`);
